@@ -1,0 +1,30 @@
+<script>
+    let a = prompt("enter the age");
+    a = Number.parseInt(a);
+    if(a>18){
+        alert("eligible for license");
+    }
+    else if(a<18 && a>9){
+        alert("not old yet");    
+    }
+    else{
+        alert("chota hai hai abhi tu");
+    }
+    //ternary operator 
+    
+    console.log("you can",a<18?"not drive":"drive");
+
+    //swwitch case
+    let age = prompt("enter the age");
+    age = Number.parseInt(age)
+    switch(age){
+        case 12:
+        console.log("age is 12")
+        break
+        case 13:
+        console.log("age is 13")
+        break
+        default:
+        console.log("your age is not special")
+    }
+</script>
